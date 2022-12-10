@@ -17,8 +17,8 @@ PORT = 3011
 def startpy():
 
     result = {
-
-        "Greetings" : "P.S. I am here"
+        "Greetings" : "P.S. I am here",
+        "random_number" : random.randint(10, 100)
     }
 
     return render_template("index.html", result = result)
