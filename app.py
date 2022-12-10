@@ -21,7 +21,9 @@ def startpy():
         "random_number" : random.randint(10, 100)
     }
 
-    return render_template("index.html", result = result)
+    return result
+
+    # return render_template("index.html", result = result)
 
 
 if __name__ == "__main__":
