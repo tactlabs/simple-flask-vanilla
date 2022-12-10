@@ -18,7 +18,7 @@ def startpy():
 
     result = {
         "Greetings" : "P.S. I am here",
-        "random_number" : random.randint(10, 100)
+        "random_number" : random.randint(20, 100)
     }
 
     return result
