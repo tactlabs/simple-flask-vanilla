@@ -18,7 +18,8 @@ def startpy():
 
     result = {
         "Greetings" : "P.S. I am here",
-        "random_number" : random.randint(20, 100)
+        "random_number" : random.randint(20, 100),
+        "intro":"Hello! world"
     }
 
     # return result
