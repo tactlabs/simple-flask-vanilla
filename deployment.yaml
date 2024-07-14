@@ -16,4 +16,4 @@ spec:
       - name: simple-flask
         image: hari723/simple-flask:latest
         ports:
-        - containerPort: 80
+        - containerPort: 3011
